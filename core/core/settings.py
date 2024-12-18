@@ -43,7 +43,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_grpc_framework',
-    'apps.account.apps.AccountConfig'
+    'apps.account.apps.AccountConfig',
+    'apps.blog.apps.BlogConfig',
+    'apps.delivery.apps.DeliveryConfig',
+    'apps.discount.apps.DiscountConfig',
+    'apps.events.apps.EventsConfig',
+    'apps.order.apps.OrderConfig',
+    'apps.payment.apps.PaymentConfig',
+    'apps.product.apps.ProductConfig',
+    'apps.search.apps.SearchConfig',
 ]
 
 MIDDLEWARE = [
